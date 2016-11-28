@@ -1,0 +1,97 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+h1, h2, h3 {
+	font-family: Open Sans;
+}
+
+
+.mar-top-10{
+margin-top:10px;
+}
+
+
+.white {
+color:white;
+}
+
+.navbar.navbar-rsquarelabs {
+	margin-bottom: 0;
+	background: #3F89CE;
+	border: none;
+	padding: 5px 0;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover
+	{
+	color: #efefef;
+}
+
+.page-holder {
+	min-height: 50%;
+
+}
+
+.landing_banner {
+	background: #3F89CE;
+	height: 100%;
+	color: #fff;
+	padding-bottom:30px;
+	height:400px;
+}
+
+.landing_banner h1 {
+	margin-top: 10%;
+	font-size: 3.5rem;
+	font-weight:300;
+	margin-bottom:1.5em;
+}
+.landing_banner .symbol{
+	font-size:6em;
+}
+.login-box{
+	border:1px solid #efefef;
+    border-top:2px solid #efefef;
+	border-bottom:4px solid #efefef;
+	margin-top:50px;
+	padding-bottom:30px;
+}
+.login-box .head{
+	border-bottom:1px solid #efefef;
+	padding-bottom:10px;
+	margin-bottom:30px;
+}
+.login-box input {
+	margin-bottom:6px;
+}
+.login-box .need-help{
+	padding-top:5px;
+}
+
+input {
+border-radius:1px;}
+
+.messages-container{
+padding:30px 20px;
+}
+.search-result-message{
+
+background:none;
+padding:10px;
+border:1px solid #eee;
+}
+a {
+cursor:pointer;}
+
+.searchInput{
+    border-radius: 0;
+    font-size: 1.5em;
+    height: auto;
+    }

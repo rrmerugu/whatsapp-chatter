@@ -1,0 +1,41 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- required to prettify the urls -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% include "master/meta.html" %}
+
+    <title>{{title }}</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/rsquare.css">
+
+    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600'-->
+          <!--rel='stylesheet' type='text/css'>-->
+    <!--&lt;!&ndash;<link rel="stylesheet"&ndash;&gt;-->
+    <!--href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">-->
+    <!-- -->
+
+
+
+</head>
+<body data-ng-controller="baseController" ng-cloak>
+
+{% include "master/nav.html" %}
+<div class="clearfix"></div>
+<div class="page-holder">{% block content %} {% endblock %}</div>
+<div class="clearfix"></div>
+{% include "master/footer.html" %}
+
+
+<script src="/assets/js/angular.min.js"></script>
+<script src="/assets/js/angular-route.js"></script>
+
+<script src="/assets/js/angular-resource.js"></script>
+<script src="/assets/js/rsquare.js"></script>
+
+</body>
+</html>
